@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2020-11-11T03:02:29Z",
+        "CreationDate": "2020-11-11T05:35:26Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -17,7 +17,7 @@
         },
         "Owner": "Michael Bourgeois <mbourgeois2@umassd.edu>",
         "Size": {
-            "X": 68.56,
+            "X": 60.94,
             "Y": 51.74
         }
     }
