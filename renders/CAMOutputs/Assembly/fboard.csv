@@ -1,0 +1,15 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"ARROW_PART_NUMBER";"ARROW_PRICE-STOCK";"AVAILABILITY";"DESCRIPTION";"DIGI-KEY_PART_NUMBER";"HEIGHT";"MANUFACTURER_NAME";"MANUFACTURER_PART_NUMBER";"MF";"MOUSER_PART_NUMBER";"MOUSER_PRICE-STOCK";"MP";"PACKAGE";"POPULARITY";"PRICE";"PURCHASE-URL";"SPICEPREFIX";
+"8";"";"LEDCHIP-LED0805";"CHIP-LED0805";"LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8";"LED";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"";"LEDCHIPLED_0805";"CHIPLED_0805";"LED9";"LED";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"5";"0.1uF";"C-EUC0805";"C0805";"C1, C2, C3, C4, C7";"CAPACITOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"88";"";"";"C";
+"1";"10nF";"C-EUC0805";"C0805";"C5";"CAPACITOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"88";"";"";"C";
+"1";"2nF";"C-EUC0805";"C0805";"C6";"CAPACITOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"88";"";"";"C";
+"9";"330R";"R-EU_R0805";"R0805";"R1, R2, R3, R4, R5, R6, R7, R8, R9";"RESISTOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"86";"";"";"R";
+"2";"4.7kR";"R-EU_R0805";"R0805";"R10, R11";"RESISTOR, European symbol";"";"";"";"";"";"";"";"";"";"";"";"";"";"86";"";"";"R";
+"1";"ATMEGA328PB-AU";"ATMEGA328PB-AU";"QFP80P900X900X120-32N";"U1";"ATmega Series 20 MHz 32 KB Flash 2 KB SRAM 8-Bit Microcontroller - TQFP-32 Check prices";"";"";"Good";" 8-bit Microcontrollers - MCU ATMEGA328PB 20MHZ IND TEMP ";"";"";"";"";"Microchip Technology / Atmel";"";"";"ATMEGA328PB-AU";"None";"";"None";"https://pricing.snapeda.com/search/part/ATMEGA328PB-AU/?ref=eda";"";
+"1";"AVRISP-6";"AVRISP-6";"AVRISP";"ISP1";"AVR ISP HEADER";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"3";"FIDUCIAL";"FIDUCIAL";"FIDUCIAL_1MM";"U$4, U$5, U$6";"For use by pick and place machines to calibrate the vision/machine, 1mm";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"MPU-6050";"MPU-6050";"QFN50P400X400X95-24N";"U2";"MPU-6050 Six-Axis (Gyro + Accelerometer) MEMS MotionTracking™ Devices";"";"";"";" Accelerometer, Gyroscope, 6 Axis Sensor I²C Output ";"1428-1007-1-ND";"";"";"";"TDK InvenSense";"";"";"MPU-6050";"VFQFN-24 TDK InvenSense";"";"";"https://pricing.snapeda.com/search/part/MPU-6050/?ref=eda";"";
+"1";"RK-2032";"RK-2032";"RK-2032";"BAT1";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"SL2305";"SL2305";"SOT95P240X115-3N";"Q1";"P-Channel Power MOSFET";"";"";"";"P-Channel Power MOSFET";"";"1.15mm";"Slkor(SLKORMICRO Elec.)";"SL2305";"";"";"";"";"";"";"";"";"";
+"1";"SN74HC138PW";"SN74HC138PW";"SOP65P640X120-16N";"U3";"";"";"";"Unavailable";" 3-Line To 8-Line Decoders/Demultiplexers 16-TSSOP -40 to 85 ";"";"";"";"";"Texas Instruments";"";"";"SN74HC138PW";"TSSOP-16 Texas Instruments";"";"None";"https://pricing.snapeda.com/search/part/SN74HC138PW/?ref=eda";"";

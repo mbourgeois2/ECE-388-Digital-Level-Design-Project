@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-11-11T03:02:29Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "fboard"
+        },
+        "Owner": "Michael Bourgeois <mbourgeois2@umassd.edu>",
+        "Size": {
+            "X": 68.56,
+            "Y": 51.74
+        }
+    }
+}
