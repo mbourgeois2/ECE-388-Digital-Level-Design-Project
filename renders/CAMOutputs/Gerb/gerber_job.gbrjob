@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2020-11-12T17:09:10Z",
+        "CreationDate": "2020-11-12T19:46:59Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -15,7 +15,7 @@
         "Name": {
             "ProjectId": "fboard"
         },
-        "Owner": "Michael Bourgeois <mbourgeois2@umassd.edu>",
+        "Owner": "Michael Bisbano <mbisbano1@umassd.edu>",
         "Size": {
             "X": 60.94,
             "Y": 51.74
