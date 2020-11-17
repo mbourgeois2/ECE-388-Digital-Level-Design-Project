@@ -10340,22 +10340,22 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="358.14" y="10.16" size="1.778" layer="91">11/11/2020</text>
+<text x="358.14" y="10.16" size="1.778" layer="91">11/17/2020</text>
 <text x="358.14" y="15.24" size="1.778" layer="91">Michael Bourgeois</text>
 <text x="342.9" y="20.32" size="1.778" layer="91">Title:</text>
 <text x="353.06" y="20.32" size="1.778" layer="91">Digital Level Circuit Design</text>
 <text x="342.9" y="15.24" size="1.778" layer="91">Author:</text>
 <text x="342.9" y="10.16" size="1.778" layer="91">Date:</text>
 <text x="375.92" y="5.08" size="1.778" layer="91">Rev.</text>
-<text x="381" y="5.08" size="1.778" layer="91">4</text>
+<text x="381" y="5.08" size="1.778" layer="91">5</text>
 <text x="15.24" y="248.92" size="1.778" layer="91">Power Input/Voltage Protection</text>
 <text x="81.28" y="223.52" size="1.778" layer="91">uController Inputs</text>
 <text x="193.04" y="218.44" size="1.778" layer="91">uController</text>
-<text x="322.58" y="182.88" size="1.778" layer="91">uController Outputs</text>
 <text x="259.08" y="27.94" size="1.778" layer="91">Fiducials</text>
 </plain>
 <instances>
@@ -10522,6 +10522,9 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="C1" gate="G$1" x="114.3" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="116.459" y="146.304" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="122.936" y="141.859" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND7" gate="1" x="297.18" y="109.22" smashed="yes">
+<attribute name="VALUE" x="294.64" y="106.68" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -10716,6 +10719,16 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="68.58" y1="213.36" x2="76.2" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="76.2" y1="213.36" x2="76.2" y2="208.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U3" gate="A" pin="!G2B"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="299.72" y1="124.46" x2="297.18" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="124.46" x2="297.18" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="!G2A"/>
+<wire x1="299.72" y1="127" x2="297.18" y2="127" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="127" x2="297.18" y2="124.46" width="0.1524" layer="91"/>
+<junction x="297.18" y="124.46"/>
 </segment>
 </net>
 <net name="Y0" class="0">
@@ -10974,9 +10987,7 @@ Source: http://www.osram.convergy.de/</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="202,1,78.74,111.76,U2,AUX_CL,,,,"/>
-<approved hash="202,1,299.72,127,U3,!G2A,,,,"/>
-<approved hash="202,1,299.72,124.46,U3,!G2B,,,,"/>
+<approved hash="202,1,78.74,129.54,U2,AUX_CL,,,,"/>
 </errors>
 </schematic>
 </drawing>

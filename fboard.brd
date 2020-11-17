@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.2" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -2632,6 +2632,8 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <vertex x="81.28" y="53.34"/>
 <vertex x="81.28" y="-11.43"/>
 </polygon>
+<contactref element="U3" pad="5"/>
+<contactref element="U3" pad="4"/>
 </signal>
 <signal name="Y0">
 <contactref element="U3" pad="15"/>
