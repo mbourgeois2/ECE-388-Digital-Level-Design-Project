@@ -60,7 +60,8 @@ void ERROR_CHECK(ret_code_t error_code)
 
 void mpu_init(void)
 {
-	ret_code_t error_code;
+	ret_code_t 
+	error_code;
 	//puts("Write 0 to PWR_MGMT_1 reg to wakeup MPU.");
 	uint8_t data[2] = {PWR_MGMT_1, 0};
 	error_code = tw_master_transmit(MPU6050_ADDR, data, sizeof(data), false);
@@ -163,9 +164,9 @@ int main(void)
 		//angle and LED calculations
 		range = 90/modeselect;
 		roll = ((atan(-y / z)*180/PI)+90)*(z/fabs(z));
-		if ((90 - range <= roll) && (90 + range >= roll))
+		if ((90 - range <= roll) && (90 + range > roll))
 		{
-			i = (roll - range*(modeselect - 1))*modeselect/20;		//default roll/20	
+			i = ((roll - range*(modeselect - 1))*modeselect/20);		//default roll/20	//obsolete (roll - range*(modeselect - 1))*modeselect/20;
 			i=8-i;
 			j = dindex(i);
 			PORTB = (((~(i) & 0x08))<<4) | (((~(i) & 0x08))<<3);	//enable decoder | enable led8
